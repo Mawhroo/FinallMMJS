@@ -1,0 +1,30 @@
+{
+    "menu":[
+       
+        {"name":"shop","id":1,"link":"#","image":"./images/activeshop.svg"},
+        {"name":"celebrate","id":2,"link":"#","image":"./images/activecelebrate.svg"},
+        {"name":"explore","id":3,"link":"#","image":"./images/activeexplore.svg"},
+        {"name":"business","id":4,"link":"#","image":"./images/activebusiness.svg"}
+    ],
+
+    "slider":[
+       
+        {"alt":"ax1","id":1,"link":"#","image":"./images/P3W1-Birthday-Desktop_final.jpg"},
+        {"alt":"ax2","id":2,"link":"#","image":"./images/P3W1-Graduation-Desktop_final.jpg"},
+        {"alt":"ax3","id":3,"link":"#","image":"./images/p3W1-StPatricksDay-Desktop_final.jpg"}
+        
+    ],
+
+    "Sslider":[
+       
+        {"alt":"BABY","id":1,"link":"#","image":"./images/BABY.jfif","caption":"BABY"},
+        {"alt":"THANK","id":2,"link":"#","image":"./images/THANK YOU.jfif","caption":"THANK YOU"},
+        {"alt":"EASTER","id":3,"link":"#","image":"./images/EASTER.png","caption":"EASTER"},
+        {"alt":"WEDDING","id":4,"link":"#","image":"./images/WEDDING.jfif","caption":"WEDDING"},
+        {"alt":"BIRTHDAY","id":5,"link":"#","image":"./images/BIRTHDAY.png","caption":"BIRTHDAY"},
+        {"alt":"ANNIVERSARY","id":6,"link":"#","image":"./images/ANNIVERSARY.png","caption":"ANNIVERSARY"}
+      
+        
+    ]
+
+}

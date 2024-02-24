@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M&M'S</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./icon/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./icon/css/all.min.css" />
+    <link rel="stylesheet" href="./css/setting.css" />
+     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+     <link rel="stylesheet" href="./node_modules/swiper/swiper.min.css">
+     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.js">
+  </head>
+  <body>
+    <div class="wrapper">
+       <!-- brown header with texts-->
+      <div class="head ">
+        <div
+          class="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full h-[73px] bg-[#592411] text-white flex flex-col items-center text-center"
+        >
+          <div class="uppertext">
+            <p
+              class="font-[din] 2xl:text-lg xl:text-lg lg:text-lg md:text-lg sm:text-lg text-sm mt-2"
+            >
+              15% Off
+              <a href="#" class="font-[din] text-white">Favors!</a>
+              <span class="font-[din]">Use Code</span>
+              <span>CREATE 15</span>
+            </p>
+          </div>
+          <div class="text2">
+            <p class="font-[din] text-xs mt-2">
+              Free Standard Shipping on Order $40+
+              <a href="#" class="font-[din] text-white hover:text-[#ae958b]">
+                Details
+              </a>
+            </p>
+          </div>
+        </div>
+      </div >
+      <!-- gray icons-->
+      <div class="grayicon 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full flex  h-[52px] bg-white  justify-end" >
+
+        <div class="images w-[200px] h-[50px] mt-2 flex justify-evenly mr-2 ">
+
+          <div class="searchp w-[40px] h-[40px] mt-1 rounded-[50%] flex justify-items-center justify-center"><img class="search w-[25px] h-[25px] mt-2 box-border  fill-[#5a1f07] cursor-pointer" src="./images/search.svg" alt="search"></div>
+          
+       <div class="flagp w-[40px] h-[40px] mt-1  rounded-[50%] flex justify-items-center justify-center">
+          <img class="flags  w-[25px] h-[25px] mt-2 rounded-[50%]  box-border cursor-pointer
+        " src="./images/usa-31.svg" alt="flag"></div>
+  
+      <div class="profilep w-[40px] h-[40px] mt-1 rounded-[50%] flex justify-items-center justify-center">
+        <img class="profile  w-[25px] h-[25px] mt-2  box-border cursor-pointer " src="./images/profile.svg" alt="profile"></div>
+
+        <div class="bagp w-[40px] h-[40px] mt-1 rounded-[50%] flex justify-items-center justify-center">
+        <img class="bag   w-[25px] h-[25px] mt-2  box-border cursor-pointer " src="./images/deactivebag.svg" alt="cart"></div>
+      </div>
+    </div>
+
+     <!-- when open icons-->
+<!-- open search-->
+      <div class="bgsearch 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full h-[70px] pt-[10px] bg-[#5A1F07] hidden ">
+        <input type="text" placeholder="Search" class="search bg-transparent border-white text-[16px] text-white border-2 2xl:w-[70%] xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[70%] flex mx-auto p-[20px] h-[50px]"></div>
+<!--end of open search-->
+<!-- open flag-->
+      <div class="openflag 2xl:w-[20%] xl:w-[30%] lg:w-[40%] md:w-[40%] sm:w-full h-[full]  justify-center flex-row flex-wrap absolute right-0 top-0 bg-[#FFFFFF] hidden ">
+<div class="close w-[50px] h-[50px] mt-[20px] text-justify cursor-pointer absolute right-0 text-[40px] text-[#5A1F07]">&times;</div>
+<div class="content pl-9 pr-9">
+  <h1 class="title w-auto h-[50px]  mt-[60px] text-[#5a1f07] ">where are you?</h1>
+  <h4 class="flag  mt-[10px] "> Please select your language and the country you are shipping to.</h4> 
+  <h3 class="flag text-[#5a1f07] mt-[30px]"> Delivering to:</h3> 
+  <div class="country flex flex-col flex-wrap">
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/usa-31.svg" alt="usa"><h3 class="usa pl-5">United states </h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-18.svg" alt="Austria"><h3 class="usa pl-5">Austria</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-19.svg" alt="Belgium"><h3 class="usa pl-5">Belgium</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-20.svg" alt="Switzerland"><h3 class="usa pl-5">Switzerland</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-21.svg" alt="Germany"><h3 class="usa pl-5">Germany</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-22.svg" alt="Denmark"><h3 class="usa pl-5">Denmark</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-23.svg" alt="Spain"><h3 class="usa pl-5">Spain</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-24.svg" alt="France"><h3 class="usa pl-5">France</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-25.svg" alt="Kingdom"><h3 class="usa pl-5">United Kingdom</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-26.svg" alt="Ireland"><h3 class="usa pl-5">Ireland</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-27.svg" alt="Italy"><h3 class="usa pl-5">Italy</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-28.svg" alt="Luxembourg"><h3 class="usa pl-5">Luxembourg</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black" href="#"><img clsss="usa " src="./images/svgexport-29.svg" alt="Netherlands"><h3 class="usa pl-5">Netherlands</h3></a>
+    <a class="flex flex-row flex-wrap mt-[20px] no-underline text-black pb-12" href="#"><img clsss="usa " src="./images/svgexport-30.svg" alt="Poland"><h3 class="usa pl-5">Poland</h3></a>
+   
+
+  </div>
+  </div>
+
+</div>
+      </div>
+<!--end of open flag-->
+ <!-- open profile-->  
+ <div class="cover 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] w-[100%] h-[100vh] bg-[#2b2b2b] fixed left-0 top-0 hidden bg-opacity-70">
+  <div class="modal 2xl:w-[40%] xl:w-[40%] lg:w-[40%] md:w-[60%] absolute top-[50%] left-[50%] bg-[#FFFFFF] ">
+    
+    <div class="close w-[50px] h-[50px] mt-[20px] text-justify cursor-pointer absolute right-0 text-[40px] text-[#5A1F07]">&times;</div>
+    <div class="form flex flex-col">
+      <h1 class="text-[#592411]  text-[30px] ml-[30px] mt-6" >welcome back</h1>
+      <h4 class="ml-[30px]">Sign in for access to special offers, order history and more!</h4>
+      <input class="ml-[30px] mt-10 drop-shadow-md  w-[300px] h-[45px]  font-[din] pl-2 text-base mb-0.5 text-left  no-underline text-[gray]" type="text" placeholder="EmailAddress*">
+      <input class="ml-[30px] mt-6 drop-shadow-md  w-[300px] h-[45px]  font-[din] pl-2 text-base mb-0.5 text-left  no-underline text-[gray]" type="text" placeholder="Password*">
+      <a href="#" class="forget ml-[30px] mt-3 text-[#592411] text-[16px] no-underline">forget password?</a>
+      <div class= "sign ml-[30px] mt-10 w-[200px] h-[50px] bg-[#FFD200] rounded-[40px] flex justify-center">
+        <a href="#" class="sign leading-[50px] no-underline text-[#592411] " >SignIn</a>
+      </div>
+      <div class="acount mt-6 mb-[50px]">
+        <span class="acount text-[16px] ml-[30px] mt-6">Don't have an account?</span><a class="account ml-[30px] mt-3 text-[#592411] text-[16px]  no-underline" href="#">register now</a>
+      </div>
+    </div>
+    
+    
+
+  </div>
+ </div>
+<!-- end of profile--> 
+<!-- open bag--> 
+<div class="openbag 2xl:w-[20%] xl:w-[30%] lg:w-[40%] md:w-[40%] sm:w-full h-[100vh]  justify-center flex-row flex-wrap absolute right-0 top-0 bg-[#FFFFFF] hidden ">
+  <div class="close w-[50px] h-[50px] mt-[20px] text-justify cursor-pointer absolute right-0 text-[40px] text-[#5A1F07]">&times;</div>
+ 
+  <div class="content pl-9 pr-9">
+    <h1 class="title w-auto h-[50px]  mt-[60px] text-[#5a1f07] ">My Bag</h1>
+    <img class="relative top-[70px] left-[50px]" src="./images/Empty-bag_Red.webp"alt="">
+    <h2 class="flag mt-[100px] ml-[50px] ">Your bag is empty!</h2> 
+    <h3 class="flag  mt-[30px]">Missing products? <a class="sign text-[#5a1f07]" href="">Sign in</a> to see your bag from a previous visit.</h3> 
+
+    </div>
+  
+  </div>
+<!-- end of bag-->    
+     <!-- end of when open icons--> 
+
+      <!-- large main menu -->
+      <div class="menu 2xl:w-full h-[100px] 2xl:flex xl:w-full xl:flex lg:w-full lg:flex md:hidden sm:hidden hidden flex flex-row">
+        <a href="#">
+          <img class="w-[150px] h-[100px] ml-10" src="./images/new-mms-logo.svg" alt="logo" ></a>
+      <nav class="menubar 2xl:w-full 2xl:block xl:w-full xl:block lg:w-full lg:block md:hidden sm:hidden  hidden  pb-3  flex-row" >
+        <ul class="w-full h-auto flex flex-row justify-start mt-5">
+     
+         
+
+          <!-- <li id="idshop" class="shop h-auto flex flex-col flex-nowrap  justify-around" > 
+            <img class="shop w-[48px] h-[48px] ml-9 justify-center cursor-pointer" src="./images/activeshop.svg">
+            <a  class="no-underline w-[116px] h-[22px] font-[dinbold2] text-[#592411] text-[12px] justify-center  text-center hover:underline  " href="#">shop </a>
+           
+       
+          </li>  -->
+        
+          <img class="shop w-[48px] h-[48px] ml-9 justify-center cursor-pointer" src="./images/activeshop.svg">
+          <img class="celebrate w-[48px] h-[48px] ml-9 justify-center cursor-pointer" src="./images/activecelebrate.svg">
+          <img class="explore w-[48px] h-[48px] ml-9 justify-center cursor-pointer" src="./images/activeexplore.svg">
+          <img class="business w-[48px] h-[48px] ml-9 justify-center cursor-pointer" src="./images/activebusiness.svg">
+
+          <!-- <li id="2" class="celebrate cursor-pointer h-auto flex flex-col flex-nowrap justify-around" > 
+            <img class="celebrate w-[48px] h-[48px] ml-9 justify-center" src="./images/activecelebrate.svg" alt="celebrate">
+            <a class="no-underline" href="#">
+         
+          <p class="w-[116px] h-[22px] font-[dinbold2] text-[#592411] text-[12px] text-center hover:underline">celebrate</p></a>
+          </li>
+
+          <li id="3" class="explore  h-auto flex flex-col flex-nowrap  justify-around" ><a  class="no-underline" href="#">
+          <img class="explore w-[48px] h-[48px] ml-9 justify-center" src="./images/activeexplore.svg" alt="explore">
+          <p class="w-[116px] h-[22px] font-[dinbold2] text-[#592411] text-[12px] text-center hover:underline">explore</p></a>
+
+          </li>
+
+          <li id="4" class="business  h-auto flex flex-col flex-nowrap justify-around" ><a  class="no-underline" href="#">
+          <img class="business w-[48px] h-[48px] ml-9 justify-center" src="./images/activebusiness.svg" alt="">
+          <p class="w-[116px] h-[22px] font-[dinbold2] text-[#592411] text-[12px] text-center hover:underline ">business</p></a>
+          </li> -->
+
+          
+
+
+        </ul>
+      </nav>
+    </div>
+
+      <!-- open shop -->
+      <div class="openshop justify-center flex-row 2xl:w-full xl:w-[full] lg:w-full md:w-full h-[500px] bg-white mt-1 hidden">
+        <div></div>
+        <div class="copenshop1 2xl:w-[250px] xl:w-[250px] lg:w-[150px] flex flex-col flex-wrap">
+          <h1 class="title1 text-[#592411] font-[dinbold] mt-14">gifts for every occasion</h1>
+          <a href="#" class="text-[#592411] font-[dinbold]  mt-5 no-underline">shop all<i class="fas fa-arrow-right ml-3"></i></a>   
+        </div>
+        <div class="copenshop2 2xl:w-[250px] xl:w-[300px] lg:w-[150px] flex flex-col flex-wrap">
+          <h3 class="title2 text-[#592411] font-[dinbold] mt-14 ">Chocolate</h3>
+          <a href="#" class="text-[#592411] font-[din]  mt-5 no-underline">Gifts </a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Party Favors </a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">M&M'S Candy Dispensers </a> 
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Single Color M&M's</a> 
+          <h3 class="title2 text-[#592411] font-[dinbold] mt-14 ">Shop By Price</h3> 
+          <a href="#" class="text-[#592411] font-[din] mt-5 no-underline">Under $30 </a> 
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">$30-$40 </a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Over $40 </a>
+        </div>
+        <div class="copenshop2 2xl:w-[250px] xl:w-[250px] lg:w-[150px] flex flex-col flex-wrap">
+          <h3 class="title2 text-[#592411] font-[dinbold] mt-14 ">Merchandise</h3>
+          <a href="#" class="text-[#592411] font-[din] mt-5 no-underline">Apparel&Accessories </a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Pet Accessories</a>
+          <a class="no-underline" href=""><h3 class="title2 text-[#592411] font-[dinbold] mt-5 ">Best Sellers</h3></a>
+          <a class="no-underline" href=""><h3 class="title2 text-[#592411] font-[dinbold] mt-5 ">MLB M&M'S</h3></a>
+          <a class="no-underline" href=""><h3 class="title2 text-[#592411] font-[dinbold] mt-5 ">NBAA M&M's</h3></a>
+        
+        </div>
+        <div class="copenshop2 2xl:w-[250px] xl:w-[250px] lg:w-[150px] flex flex-col flex-wrap">
+          <div class="mbl w-[230px] h-[100px] m-14 flex flex-row flex-wrap bg-[#121661] rounded-lg">
+            <div class="1"> <img class="mbl w-[70px] h-[70px] rounded-full mt-3 ml-2" src="./images/MLB-promo-card.jpg" alt="mbl"></div>
+            <div class="2">
+              <h1 class="text-white text-[15px] font-[dinbold] mt-5 ml-3">MLBM&M'S</h1> 
+              <a class="no-underline" href=""><h4 class="text-[white] text-[15px] font-[din] mt-2 ml-3">shop all mlb <br> teams<i class="fas fa-arrow-right ml-14"></i></h4></a>
+            </div>
+           
+           
+          </div>
+            
+          </div>
+          </div>
+        </div>
+       </div>
+        <!-- end of open shop -->
+
+        <!-- open celebrate -->
+      <div class="opencelebrate justify-center flex-row 2xl:w-full xl:w-[full] lg:w-full md:w-full h-[500px] bg-white mt-1 hidden">
+        <div class="copenelebrate1 2xl:w-[250px] xl:w-[250px] lg:w-[200px]  flex flex-col flex-wrap">
+          <h1 class="title1 text-[#592411] font-[dinbold] mt-14">make every celebration special</h1>
+          <h5 class="class=text-[#592411] font-[din] text-[14px]  mt-5">celebrate every moment big and small with personalized party favors gift and more</h5>
+          <a href="#" class="text-[#592411] font-[dinbold] mt-5 no-underline"> all occasions<i class="fas fa-arrow-right ml-3"></i></a>   
+        </div>
+        <div class="copenelebrate2 2xl:w-[250px] xl:w-[250px] lg:w-[150px]  flex flex-col flex-wrap justify-items-center">
+          <h3 class="title2 text-[#592411] font-[dinbold] mt-14 ">celebrate</h3>
+          <a href="#" class="text-[#592411] font-[din] mt-5 no-underline">Father's Day </a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Mather's Day </a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Easter </a> 
+     
+        </div>
+        <div class="copenshop2 2xl:w-[250px] xl:w-[250px] lg:w-[150px]  flex flex-col flex-wrap  justify-items-center">
+          <h3 class="title2 text-[#592411] font-[dinbold] mt-14 ">Life's Moments</h3>
+          <a href="#" class="text-[#592411] font-[din] mt-5 no-underline">wedding</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Birthday</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Baby</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Graduation</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Pride</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Anniversary</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Congratulations</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Thank You</a>
+          <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Just Because</a>
+         
+        
+        </div>
+        <div class=" 2xl:w-[250px] xl:w-[250px] lg:w-[150px] flex flex-col flex-wrap">
+          <div class="mbl w-[250px] h-[90px] mt-14 flex flex-row flex-nowrap bg-[#8ACEFF] rounded-lg">
+            <div class="1"> <img class="mbl w-[70px] h-[70px] rounded-full mt-3 ml-2" src="./images/Wedding-2022-Cohley-02.jpg" alt="mbl"></div>
+            <div class="2">
+              <h1 class="text-white text-[15px] font-[dinbold] mt-5 ml-5">wedding</h1> 
+              <a class="no-underline" href=""><h4 class="text-white font-[din] text-[16px] ml-5 mt-2">love is sweet<i class="fas fa-arrow-right ml-8"></i></h4></a>
+            </div>
+           
+           
+          </div>
+            
+          </div>
+        </div>
+       
+        <!-- end of open celebrate -->
+
+         <!-- open explore -->
+         <div class="openexplore justify-center flex-row w-[full] h-[500px] bg-white mt-1 hidden">
+          <div class="copenshop1 2xl:w-[250px] xl:w-[250px] lg:w-[250px] lg:ml-10 flex flex-col flex-wrap">
+            <h1 class="title1 text-[#592411] font-[dinbold] mt-14">all welcome here</h1>
+            <h5 class="class=text-[#592411] text-[14px] font-[din] mt-5">Alot has changed in the time we've been around, but our open invite to a good time remains the same. We hope you enjoy exploring our M&M'S world.</h5>
+            <a href="#" class="text-[#592411] font-[dinbold] mt-5 no-underline">explore our world<i class="fas fa-arrow-right ml-3"></i></a>   
+          </div>
+          <div class="aboutus font-[din] 2xl:w-[170px] xl:w-[170px] lg:w-[155px] flex flex-col justify-items-center flex-wrap">
+            <div class=" w-[300px] h-[inherti] flex flex-col justify-center  flex-wrap">
+
+              <div class="mbl w-[150px] h-[160px] m-14 flex flex-col justify-center  flex-nowrap bg-[#FFD201] rounded-lg">
+                <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full ml-6" src="./images//we.png" alt="mbl"></div>
+                <div class="2">
+                
+                  <a class="no-underline" href=""><h4 class="text-[#592411] text-[16px] ml-10 mt-2">about us</h4></a>
+                </div>  
+              </div>
+                
+              </div>
+       
+          </div>
+
+          <div class="meet font-[din] 2xl:w-[170px] xl:w-[170px] lg:w-[155px] flex flex-col justify-items-center flex-wrap">
+            <div class=" w-[300px] h-[inherti] flex flex-col justify-center  flex-wrap">
+
+              <div class="mbl w-[150px] h-[160px] m-14 flex flex-col justify-center  flex-nowrap bg-[#D70100] rounded-lg">
+                <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full ml-6" src="./images/qwe.png" alt="mbl"></div>
+                <div class="2">
+                  <a class="no-underline" href=""><h4 class="text-white text-[16px] ml-6 mt-2">meet the crew</h4></a>
+                </div>  
+              </div>
+                
+              </div>
+       
+          </div>
+
+          <div class="ourstores font-[din] 2xl:w-[170px] xl:w-[170px] lg:w-[155px] h-[inherti] flex flex-col justify-items-center flex-wrap">
+            <div class=" w-[300px] h-[inherti] flex flex-col justify-center  flex-wrap">
+
+              <div class="mbl w-[150px] h-[160px] m-14 flex flex-col justify-center flex-nowrap bg-[#0E74E2] rounded-lg">
+                <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full ml-6" src="./images/store.png" alt="mbl"></div>
+                <div class="2">
+                  <a class="no-underline" href=""><h4 class="text-white text-[16px] ml-10 mt-2">our stores</h4></a>
+                </div>  
+              </div>
+                
+              </div>
+       
+          </div>
+
+          <div class="newmusic font-[din] 2xl:w-[170px] xl:w-[170px] lg:w-[155px] h-[inherti] flex flex-col justify-items-center flex-wrap">
+            <div class=" w-[300px] h-[inherti] flex flex-col justify-center  flex-wrap">
+
+              <div class="mbl w-[150px] h-[160px] m-14 flex flex-col justify-center flex-nowrap bg-[#01A633] rounded-lg">
+                <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full ml-6" src="./images/New-Music-Coming-Soon.jpg" alt="mbl"></div>
+                <div class="2">
+                  <a class="no-underline" href=""><h4 class="text-white text-[16px] ml-10 mt-2">new music</h4></a>
+                </div>  
+              </div>
+                
+              </div>
+       
+          </div>
+
+          <div class="recipes font-[din] w-[300px] h-[inherti] flex flex-col justify-items-center flex-wrap">
+            <div class=" w-[300px] h-[inherti] flex flex-col justify-center  flex-wrap">
+
+              <div class="mbl w-[150px] h-[160px] m-14 flex flex-col justify-center flex-nowrap bg-[#FA6403] rounded-lg">
+                <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full ml-6" src="./images/rec-spot-illustration_cake.png" alt="mbl"></div>
+                <div class="2">
+                  <a class="no-underline" href=""><h4 class="text-white text-[16px] ml-12 mt-2">recipes</h4></a>
+                </div>  
+              </div>
+                
+              </div>
+       
+          </div>
+
+          </div>
+         
+          <!-- end of open explore -->
+
+             <!-- open business -->
+             <div class="openbusiness justify-center flex-row w-full h-[500px] bg-white mt-1 hidden ">
+              <div></div>
+              <div class="copenshop1 2xl:w-[300px] xl:w-[300px] lg:w-[300px] flex flex-col flex-wrap">
+                <h1 class="title1 text-[#592411] w-[250px] font-[dinbold] mt-14">so many branding opportunities</h1>
+                <h5 class="class=text-[#592411] font-[din] text-[14px] mt-5">Spotlight your business or show your appreciation with customizable gofts.</h5>
+                <a href="#" class="text-[#592411] font-[dinbold] mt-5 no-underline">for your business<i class="fas fa-arrow-right ml-3"></i></a>   
+              </div>
+              <div class="copenshop2 2xl:w-[250px] xl:w-[250px] lg:w-[150px] h-[inherti] flex flex-col flex-wrap">
+                <h3 class="title2 text-[#592411] font-[dinbold] mt-14 ">Products</h3>
+                <a href="#" class="text-[#592411] font-[din] mt-5 no-underline">Design Your Own </a>
+                <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Corporate Gifting and Favors </a>
+                <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">FAQ'S </a> 
+                <a href="#" class="text-[#592411] font-[din] mt-2 no-underline">Contact Us</a> 
+               </div>
+              
+              <div class="copenshop2 w-[350px] h-[inherti] flex flex-col flex-nowrap">
+                <div class="mbl w-[270px] h-[130px] m-14 flex flex-row flex-nowrap bg-[#c4e3f8] rounded-lg">
+                  <div class="1"> <img class="mbl w-[70px] h-[70px] justify-items-center rounded-full mt-8 ml-2" src="./images/Business-suitcase.png" alt="mbl"></div>
+                  <div class="2">
+                    <h1 class="text-[18px] w-[130px] font-[dinbold] leading-4 mt-3 ml-3">Wow clients, treat employees, or launch campaigns</h1> 
+                    <a class="no-underline w-[130px]" href=""><h4 class="text-[#592411] font-[din] text-[15px] mt-4 ml-3">Design Your Own<i class="fas fa-arrow-right ml-5"></i></h4><hr class="text-[#592411]"></a>
+                  </div>
+                 
+                 
+                </div>
+                  
+                </div>
+                </div>
+              </div>
+             </div>
+             
+              <!-- end of open business -->     
+
+      <!--small menu-->
+      <div class="smallmenu center 2xl:hidden xl:hidden lg:hidden md:flex sm:flex flex w-flex flex-row justify-start mb-5">
+        <div class="submenu md:w-[200px] sm:w-[200px] w-[200px] h-[50px] flex flex-row ">
+          <i class="fas fa-bars md:w-[50px] sm:w-[50px] w-[50px] h-[50px] text-[#592411]  text-[45px] mx-auto"></i>
+           <img src="./images/new-mms-logo.svg" alt="logo " class=" md:w-[100px] sm:w-[100px] w-[100px] cursor-pointer ">
+        </div>
+       
+    </div>
+    <!-- open mobile menu--> 
+<div class="opensubmenu 2xl:hidden xl:hidden lg:hidden md:hidden sm:hidden w-hidden w-[50%] h-[100%]  flex-col flex-wrap absolute left-0 top-0 z-50 bg-[#FFFFFF] ">
+ <div class="logo mb-10 flex flex-row"> 
+  <div class="close w-[50px] z-auto h-[50px] mt-[20px] text-justify cursor-pointer absolute left-[25px] text-[40px] text-[#5A1F07]">&times;</div>
+  <img class="logo z-50 w-[100px] h-[50px] mt-[20px] mx-auto justify-center" src="./images/new-mms-logo.svg" alt="">
+</div>
+ <!--mobile menu list--> 
+<div class="list  ">
+  <nav>
+    <ul>
+
+      <!--mobile menu list shop 1--> 
+      <li>
+        <a href="#" class="shop w-[full] h-[80px] flex flex-row flex-nowrap text-[13px] items-center no-underline font-[dinbold]  text-[#592411]">
+          <img class="ml-5 mr-5 w-[50px] leading-[80px] h-[50px]" src="./images/activeshop.svg" alt="shop">
+          <h2 class="items-baseline">shop<i class="fas fa-chevron-right text-[16px] ml-[50px] "></i></h2> 
+        </a>
+        <!--mobile menu list shop 1-1  -->
+                <ul class="subshop 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-full flex-col flex-wrap absolute left-0 top-0 bg-[#FFFFFF] hidden">
+
+                  <div class="backtomenu cursor-pointer w-[full] h-[40px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+                    <H3 class="ml-10 mt-14"><i class="fas fa-arrow-left"></i> back </H3>
+                  </div>
+                <div class="w-[full] h-[300px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+                  
+                <h1 class=" p-6 text-[26px]">gifts for every <br> occasion</h1>
+                <a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline">shop all <i class="fas fa-arrow-right text-[16px] ml-[50px] "></i></a>
+                </div>
+               
+                
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] c">Chocolate</a></li>
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">ShopByPrice</a></li>
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">merchandise</a></li>
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">BestSellers</a></li>
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">MLB M&M'S</a></li>
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">NBA M&M'S</a></li>
+                <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">Sale</a></li>
+
+          
+        </ul>
+      </li>
+
+      <!--mobile menu list celebrate2--> 
+      <li >
+        <a href="#" class="celebrate w-[full] h-[80px] flex flex-row flex-nowrap text-[13px] items-center no-underline font-[dinbold] text-[#592411]">
+          <img class="ml-5 mr-5 w-[50px] leading-[80px] h-[50px]" src="./images/activecelebrate.svg" alt="celebrate">
+          <h2 class="items-baseline">celebrate<i class="fas fa-chevron-right text-[16px] ml-[50px] "></i></h2> 
+        </a>
+
+        <!--mobile menu list celebrate2-1 --> 
+        <ul class="subcelebrate 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-full flex-col flex-wrap absolute left-0 top-0 bg-[#FFFFFF] hidden ">
+          <div class="backtomenu cursor-pointer w-[full] h-[40px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+            <H3 class="ml-10 mt-14"><i class="fas fa-arrow-left"></i> back </H3>
+          </div>
+          <div class=" w-[full] h-[300px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+            
+          <h1 class=" p-6 text-[26px]">make every celebration special</h1>
+          <span class="ml-6 mr-6 mb-6 font-[din] text-[14px]">celebrate every moment big and small with personalizel party favors,gifts,and more</span>
+          <a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline">all occasions<i class="fas fa-arrow-right text-[16px] ml-[50px] "></i></a>
+          </div>
+         
+          
+          <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">Celebrate</a></li>
+          <li><a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">Life's Moments</a></li>
+
+          <div class="mbl w-[250px] h-[90px] mt-10 ml-7 flex flex-row flex-nowrap bg-[#8ACEFF] rounded-lg">
+            <div class="1"> <img class="mbl w-[70px] h-[70px] rounded-full mt-3 ml-2" src="./images/Wedding-2022-Cohley-02.jpg" alt="mbl"></div>
+            <div class="2">
+              <h1 class=" text-[20x] font-[dinbold] mt-5 ml-5">wedding</h1> 
+              <a class="no-underline" href=""><h4 class="text-[#592411] font-[din] text-[18px] ml-5 mt-1">love is sweet<i class="fas fa-arrow-right ml-6"></i></h4></a>
+            </div>
+           
+           
+          </div>
+         
+
+    
+  </ul>
+
+      </li>
+
+      <!--mobile menu list business-->
+      <li >
+        <a href="#" class="business w-[full] h-[80px] flex flex-row flex-nowrap text-[13px] items-center no-underline font-[dinbold] text-[#592411]">
+          <img class="ml-5 mr-5 w-[50px] leading-[80px] h-[50px]" src="./images/activebusiness.svg" alt="business">
+          <h2 class="items-baseline">business<i class="fas fa-chevron-right text-[16px] ml-[50px] "></i></h2> 
+        </a>
+
+        <!--mobile menu list business --> 
+        <ul class="subbusiness 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-full flex-col flex-wrap absolute left-0 top-0 bg-[#FFFFFF] hidden ">
+          <div class="backtomenu cursor-pointer w-[full] h-[40px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+            <H3 class="ml-10 mt-14"><i class="fas fa-arrow-left"></i> back </H3>
+          </div>
+          <div class=" w-[full] h-[300px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+            
+          <h1 class=" p-6 text-[26px]">so many branding opportunities</h1>
+          <span class="ml-6 mr-6 mb-6 font-[din] text-[14px]">Spotlight your business or show your appreciation with customizable gifts.</span>
+          <a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline ">for your business<i class="fas fa-arrow-right text-[16px] ml-[50px] "></i></a>
+          </div>
+         
+          
+          <li><a href="#" class="no-underline ml-10 leading-[50px] font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">Design Your Own</a></li>
+          <li><a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">Corporate Gifting and Favors</a></li>
+          <li><a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">FAQ'S</a></li>
+          <li><a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline hover:text-[#ffd200]">Contact Us</a></li>
+
+          <div class="mbl w-[300px] h-[190px] mt-10 ml-7 flex flex-row flex-nowrap bg-[#8ACEFF] rounded-lg">
+            <div class="1"> <img class="mbl w-[70px] h-[70px] rounded-full mt-3 ml-2" src="./images/Business-suitcase.png" alt="mbl"></div>
+            <div class="2">
+              <h1 class=" text-[20x] font-[dinbold] leading-6 mt-5 ml-5">
+                Wow clients, treat employees, or launch campaigns</h1> 
+              <a class="no-underline" href=""><h4 class="text-[#592411] font-[din] text-[18px] ml-5 mt-3 hover:underline" >Design Your Own<i class="fas fa-arrow-right ml-8"></i></h4></a>
+            </div>
+           
+           
+          </div>
+         
+
+    
+  </ul>
+
+      </li>
+
+      <!--mobile menu list explore 3 --> 
+      <li ><a href="#" class="explore w-[full] h-[80px] flex flex-row flex-nowrap text-[13px] items-center no-underline font-[dinbold]  text-[#592411]">
+          <img class="ml-5 mr-5 w-[50px] leading-[80px] h-[50px]" src="./images/activeexplore.svg" alt="shop">
+          <h2 class="items-baseline">explore<i class="fas fa-chevron-right text-[16px] ml-[50px] "></i></h2> 
+        </a>
+
+      <!--mobile menu list explore 3-1 -->
+      
+        <ul class="subexplore 2xl:w-[100%] xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] w-full h-[100%] flex-col flex-wrap absolute left-0 top-0 bg-[#FFFFFF] overflow-scroll hidden">
+          <div class="backtomenu cursor-pointer w-[full] h-[40px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+            <H3 class="ml-10 mt-14"><i class="fas fa-arrow-left"></i> back </H3>
+          </div>
+          <div class="w-[full] h-[40px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+            
+          </div>
+          <div class="  w-[full] h-[300px] flex flex-col flex-nowrap text-[15px] justify-center  no-underline font-[dinbold]  text-[#592411]">
+           
+          <h1 class=" p-6 text-[26px]">all welcome here</h1>
+          <span class="ml-6 mr-6 mb-6 font-[din] text-[14px]">A lot has changed in the time we've been around, but our open invite to a good time remains the same. We hope you enjoy exploring our M&M'S® world.</span>
+          <a href="#" class="no-underline ml-10 font-[dinbold] text-[15px] text-[#592411] hover:underline ">explore our world<i class="fas fa-arrow-right text-[16px] ml-[50px] "></i></a>
+          </div>
+
+          <!--mobile menu list explore boxes -->
+          <div class="px-10 ">
+
+            <!-- row 1 -->
+            <div class="flex -mx-2 py-10">
+
+               <!--  1-1 -->
+               <div class="w-1/2 px-2">
+                <div class="meet 2xl:w-[140px] xl:w-[170px] lg:w-[155px] flex flex-row justify-items-center flex-wrap">
+                  <div class=" w-[190px] flex flex-row  justify-center  flex-wrap">
+      
+                    <div class="mbl w-[140px] h-[160px] flex flex-col justify-center items-center flex-nowrap bg-[#FFD200] rounded-lg">
+                      <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full " src="./images/we.png" alt="mbl"></div>
+                      <div class="2">
+                        <a class="no-underline" href=""><h4 class="text-white text-[16px]  mt-2">about us</h4></a>
+                      </div>  
+                    </div>
+                      
+                    </div>
+             
+                </div>
+              </div>
+
+              <!-- 1-2 -->
+              <div class="w-1/2 px-2">
+                <div class="meet 2xl:w-[200px] xl:w-[170px] lg:w-[155px] flex flex-row justify-items-center flex-wrap">
+                  <div class=" w-[190px] flex flex-row justify-center  flex-wrap">
+      
+                    <div class="mbl w-[140px] h-[160px] flex flex-col justify-center items-center flex-nowrap bg-[#D70100] rounded-lg">
+                      <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full " src="./images/qwe.png" alt="mbl"></div>
+                      <div class="2">
+                        <a class="no-underline" href=""><h4 class="text-white text-[16px] mt-2">meet the crew</h4></a>
+                      </div>  
+                    </div>
+                      
+                    </div>
+             
+                </div>
+              </div>
+
+              
+            
+            </div>
+
+            <div class="flex -mx-2 py-10 ">
+
+              <!--  2-1 -->
+              <div class="w-1/2 px-2">
+                <div class="meet 2xl:w-[140px] xl:w-[170px] lg:w-[155px] flex flex-row justify-items-center flex-wrap">
+                  <div class=" w-[190px] flex flex-row justify-center  flex-wrap">
+      
+                    <div class="mbl w-[140px] h-[160px] flex flex-col justify-center items-center flex-nowrap bg-[#0e74e2] rounded-lg">
+                      <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full " src="./images//store.png" alt="mbl"></div>
+                      <div class="2">
+                        <a class="no-underline" href=""><h4 class="text-white text-[16px] mt-2">our stores</h4></a>
+                      </div>  
+                    </div>
+                      
+                    </div>
+             
+                </div>
+              </div>
+
+
+             <!-- 2-2 -->
+             <div class="w-1/2 px-2">
+               <div class="meet 2xl:w-[140px] xl:w-[170px] lg:w-[155px] flex flex-row justify-items-center flex-wrap">
+                 <div class=" w-[190px] flex flex-row justify-center  flex-wrap">
+     
+                   <div class="mbl w-[150px] h-[160px] flex flex-col justify-center  flex-nowrap bg-[#00A832] rounded-lg">
+                     <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full ml-6" src="./images/New-Music-Coming-Soon.jpg" alt="mbl"></div>
+                     <div class="2">
+                       <a class="no-underline" href=""><h4 class="text-black text-[18px] ml-9 mt-2">new music</h4></a>
+                     </div>  
+                   </div>
+                     
+                   </div>
+            
+               </div>
+             </div>
+
+           </div>
+
+
+           <div class="flex -mx-2 py-10">
+
+            <!--  3-1 -->
+            <div class="w-1/2 px-2">
+              <div class="meet 2xl:w-[140px] xl:w-[170px] lg:w-[155px] flex flex-row justify-items-center flex-wrap">
+                <div class=" w-[190px] flex flex-row justify-center  flex-wrap">
+    
+                  <div class="mbl w-[140px] h-[160px] flex flex-col justify-center items-center flex-nowrap bg-[#fa6400] rounded-lg">
+                    <div class="1"> <img class="mbl w-[100px] h-[100px] rounded-full justify-center items-center " src="./images/rec-spot-illustration_cake.png" alt="mbl"></div>
+                    <div class="2">
+                      <a class="no-underline" href=""><h4 class="text-black text-[18px]mt-2">recipes</h4></a>
+                    </div>  
+                  </div>
+                    
+                  </div>
+           
+              </div>
+            </div>
+
+                   
+         
+         </div>
+            
+          </div>
+     
+               
+        </div>
+      </div>
+  </ul>
+      </li>
+
+      
+
+     
+
+    </ul>
+  </nav>
+</div>
+
+  
+  </div>
+<!-- end of open mobile menu--> 
+
+    </div>
+      <!-- Swiper1 -->
+
+      <div class="swiper mySwiper 2xl:w-full xl:w-full lg:w-full md:w-full sm:full w-full h-[784px]">
+      <div class="swiper-wrapper">
+      <!-- <div class="swiper-slide"><img src="./images/P3W1-Birthday-Desktop_final.jpg" alt=""></div> -->
+      <!-- <div class="swiper-slide"><img src="./images/P3W1-Graduation-Desktop_final.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./images/P3W1-StPatricksDay-Desktop_final.jpg" alt=""></div> -->
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!--title1-->
+  <div class="title 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full h-[110px]"><h2 class="font-[din] 2xl:text-[50px] xl:text-[50px] lg:text-[50px] md:text-[30px] sm:text-[20px] text-[#592411] font-bold mt-8 2xl:mx-[100px] xl:mx-[100px] lg:mx-[100px] md:mx-[80px] sm:mx-[50px] 2xl:mb-9 xl:mb-9 lg:mb-9 md:mb-5 sm:mb-5" >SHOP BY CELEBRATION</h2></div>
+
+   <!--second Swiper -->
+   <div class="secondslider 2xl:w-[90%] xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-[90%] h-auto mx-auto">
+     <div class="swiper mySwipersecond ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+
+        <img class="w-[281px] h-[282px]" src="./images/BABY.jfif" alt="">
+        <div class="text">
+          <a href="#" class="block font-[din] text-[#592411] mx-auto mt-5 font-bold no-underline hover:underline ">BABY</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+
+        <img class="w-[281px] h-[282px]" src="./images/THANK YOU.jfif" alt="">
+        <div class="text">
+          <a href="#" class="block font-[din] text-[#592411] mx-auto mt-5 font-bold no-underline hover:underline ">THANK YOU</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+
+        <img class="w-[281px] h-[282px]" src="./images/EASTER.png" alt="">
+        <div class="text">
+          <a href="#" class="block font-[din] text-[#592411] mx-auto mt-5 font-bold no-underline hover:underline ">EASTER</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+
+        <img class="w-[281px] h-[282px]" src="./images/WEDDING.jfif" alt="">
+        <div class="text">
+          <a href="#" class="block font-[din] text-[#592411] mx-auto mt-5 font-bold no-underline hover:underline ">WEDDING</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+
+        <img class="w-[281px] h-[282px]" src="./images/BIRTHDAY.png" alt="">
+        <div class="text">
+          <a href="#" class="block font-[din] text-[#592411] mx-auto mt-5 font-bold no-underline hover:underline ">BIRTHDAY</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+
+        <img class="w-[281px] h-[282px]" src="./images/ANNIVERSARY.png" alt="">
+        <div class="text">
+          <a href="#" class="block font-[din] text-[#592411] mx-auto mt-5 font-bold no-underline hover:underline ">ANNIVERSARY</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+      </div>
+
+      <!--blue back-->
+  <div class="blueback 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full w-full bg-[#8ACEFF] mt-11">
+    <div class="backimg flex flex-row flex-nowrap">
+      <img class=" 2xl:w-[870px] xl:w-[870px] lg:w-[480px] md:w-[480px] sm:w-[450px] w-[250px] justify-start" src="./images/blue.jfif" alt="">
+      <h1 class="font-[din] text-white 2xl:mt-[100px] xl:mt-[100px] lg:mt-[50px] md:mt-[30px] sm:mt-[30px] mt-[30px] 2xl:mx-[100px] xl:mx-[100px] lg:mx-[100px] 2xl:text-[60px] xl:text-[60px] lg:text-[50px] md:text-[50px] sm:text-[30px] text-[24px]">HOP TO IT <br> WITH CUSTOM <br> M&M'S
+        <div class="2xl:w-[170px] xl:w-[170px] lg:w-[170px] md:w-[170px] sm:w-[150px] w-[150px] 2xl:h-[55px] xl:h-[55px] lg:h-[55px] md:h-[40px] sm:h-[40px] h-[40px] box-border block rounded-[50px] 2xl:mt-5 xl:mt-5 lg:mt-5 md:mt-5 sm:mt-3 mt-5 bg-white">
+          <a class="2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[17px] sm:text-[17px] text-[17px] no-underline ml-5 mb block text-[#592411] 2xl:leading-[55px] xl:leading-[55px] lg:leading-[55px] md:leading-[50px] sm:leading-[40px] leading-[40px]" href="#">SHOP EASTER</a></div> </h1>
+
+    </div>
+
+       <!--third Swiper -->
+   <div class="thirdslider 2xl:w-[90%] xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] h-[auto] mx-auto">
+    <div class="swiper mySwiperthird ">
+   <div class="swiper-wrapper 2xl:w-[90%] xl:w-[90%] lg:w-[90%] md:w-[90%] sm:w-[90%] w-[90%] ">
+
+     <div class="swiper-slide pb-[30px] pl-[20px] pr-[20px] mb-20">
+
+       <img class="pic1 " src="./images/3-18562d36d-11ef-4479-b948-06d9361b684b.jfif" alt="pic1">
+       <div class="text">
+         <a href="#" class="block font-[din] text-[#592411] mx-auto text-[14px] no-underline ">Personalizable M&M'S Butterfly Gift Box</a>
+       
+     
+
+       </div>
+     </div>
+
+  
+
+     <div class="swiper-slide pb-[30px] pl-[20px] pr-[20px] ">
+
+       <img class="pic2" src="./images/3-336552479-a285-4887-8e04-e0a8b5ca956e.jfif" alt="">
+
+       <div class="text">
+        <a href="#" class="block font-[din] text-[#592411] mx-auto text-[14px]  no-underline ">Personalizable M&M'S Easter Bunny Gift Box</a>
+        <!-- <a href="#" class="cards w-[230px] h-[55px] flex flex-row flex-nowrap mt-[40px] no-underline  "> <img class="logo w-[48px] h-[48px]  " src="./images/1.png" alt=""> <span>DESIGN YOUR OWN M&M'S</span> </a> -->
+  
+
+      </div>
+     </div>
+
+     <div class="swiper-slide pb-[30px] pl-[20px] pr-[20px]">
+
+       <img class="pic3" src="./images/3-4f1899995-5b78-4f22-94f8-5ca0c69fc62c.jfif" alt="">
+
+       <div class="text">
+        <a href="#" class="block font-[din] text-[#592411] mx-auto  text-[14px] no-underline ">Personalizable M&M'S All For Fun dispenser </a>
+       
+
+
+      </div>
+
+
+     </div>
+
+     <div class="swiper-slide pb-[30px] pl-[20px] pr-[20px]">
+
+       <img class="w-[281px] h-[282px]" src="./images/3-6ee0b9b30-0d8f-4d03-a4ca-5c8ca3ec0604.jfif" alt="">
+       <div class="text">
+        <a href="#" class="block font-[din] text-[#592411] mx-auto  text-[14px] no-underline ">Personalizable M&M'S Happy Easter Favor Packs</a>
+        
+        <!-- <div class="rate flex flex-row flex-nowrap w-[30px] h-[30px] ml-[110px]"><img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <span class="leading-[30px] ml-2 font-[din]">(1)</span>
+       </div> -->
+
+      </div>
+     </div>
+
+     <div class="swiper-slide pb-[30px] pl-[20px] pr-[20px]">
+
+      <img class="w-[281px] h-[282px]" src="./images/3-5bf1c3564-582d-4430-8253-eb9868d13b3c.jfif" alt="">
+
+      <div class="text">
+        <a href="#" class="block font-[din] text-[#592411] mx-auto  text-[14px] no-underline ">Personalizable M&M'S Gift Jar in Just Because Gift Tube</a>
+       
+        <!-- <div class="rate flex flex-row flex-nowrap w-[30px] h-[30px] ml-[110px]"><img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <img  src="./images/full.png" alt="">
+         <img  src="./images/23vom.png" alt="">
+         <span class="leading-[30px] ml-2 font-[din]">(22)</span>
+       </div> -->
+
+      </div>
+    </div>
+
+   </div>
+
+
+   <div class="swiper-pagination"></div>
+ </div>
+     </div>
+    </div>
+
+<!-- title2 -->
+<div class="titlerow w-full flex flex-row justify-around">
+     <div class="title2 flex mt-[50px]">
+      <img class="2xl:w-[150px] 2xl:h-[150px] xl:w-[150px] xl:h-[150px] lg:w-[150px] lg:h-[150px] md:w-[150px] md:h-[150px] sm:w-[100px] sm:h-[100px] w-[100px] h-[100px]" src="./images/mylogo.png" alt="mym&M">
+      <h2 class="font-[din] 2xl:text-[50px] xl:text-[50px] lg:text-[50px] md:text-[50px] sm:text-[30px] text-[30px] text-[#592411] font-bold ml-5" >LET'S GET <BR> PERSONAL</BR></h2>
+    </div>
+    
+    
+        <div class="text2 flex flex-col mt-[50px] ">
+        <a href="#" class="block w-[200px] font-[din] text-[#592411] justify-end 2xl:mt-[10px] xl:mt-[10px] lg:mt-[10px] md:mt-[10px] sm:mt-[5px] mt-[5px] text-[22px] no-underline ">Designing your own is as easy as 1-2-3!</a>
+        <a href="#" class="card3 w-[200px] h-[55px] flex flex-row flex-nowrap mt-[40px] no-underline  "> <img class="logo  w-[40px] h-[40px] " src="./images/1.png" alt=""> <span class="ml-3">DESIGN YOUR OWN M&M'S</span> </a>
+
+
+      </div>
+    </div>
+  
+    <!-- columns -->
+    <div class="3column w-[100%] flex flex-row justify-center flex-nowrap mt-[80px]">
+      <div class="titles w-[90%] flex flex-row flex-nowrap justify-around">
+        
+        <div class="left flex ">
+          <div class="2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[40px] lg:h-[40px] md:w-[40px] md:h-[40px] sm:w-[35px] sm:h-[35px] w-[35px] h-[35px] rounded-full flex  bg-[#592411]"><h1 class="text-white font-[din] mx-auto">1</h1></div>
+          <span class="font-[din] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[14px] text-[14px] mt-2 2xl:ml-5 xl:ml-5 lg:ml-5 md:ml-5 sm:ml-2 ml-2 text-[#592411]">PICK YOUR COLORS</span>
+        </div>
+
+        <div class="center flex ">
+          <div class="2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[40px] lg:h-[40px] md:w-[40px] md:h-[40px] sm:w-[35px] sm:h-[35px] w-[35px] h-[35px] rounded-full flex  bg-[#592411]"><h1 class="text-white font-[din] mx-auto">2</h1></div>
+          <span class="font-[din] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[14px] text-[14px] mt-2 2xl:ml-5 xl:ml-5 lg:ml-5 md:ml-5 sm:ml-2 ml-2 text-[#592411]">PERSONALIZE</span>
+        </div>
+        
+        <div class="right flex ">
+          <div class="2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[40px] lg:h-[40px] md:w-[40px] md:h-[40px] sm:w-[35px] sm:h-[35px] w-[35px] h-[35px] rounded-full flex  bg-[#592411]"><h1 class="text-white font-[din] mx-auto">3</h1></div>
+          <span class="font-[din] 2xl:text-[20px] xl:text-[20px] lg:text-[20px] md:text-[20px] sm:text-[14px] text-[14px] mt-2 2xl:ml-5 xl:ml-5 lg:ml-5 md:ml-5 sm:ml-2 ml-2 text-[#592411]">SELECT A PACKAGE</span>
+        </div>
+
+      </div>     
+    </div>
+    <div class="colums w-[100%] flex flex-row justify-center flex-nowrap mt-[50px]">
+      <div class="titles w-[90%] flex flex-row flex-nowrap justify-around">
+        
+        <div class="left flex ">
+        <img class="2xl:w-[400px] xl:w-[400px] lg:w-[300px] md:w-[200px] sm:w-[200px] w-[150px] 2xl:h-[400px] xl:h-[400px] lg:h-[300px] md:h-[200px] sm:h-[200px] h-[150px] " src="./images/mms-color-wheel.jpg" alt="">
+        </div>
+        <div class="center flex ">
+          <img class="2xl:w-[400px] xl:w-[400px] lg:w-[300px] md:w-[200px] sm:w-[200px] w-[150px] 2xl:h-[400px] xl:h-[400px] lg:h-[300px] md:h-[200px] sm:h-[200px] h-[150px] " src="./images/personalize-lentil.gif" alt="">
+          </div>
+          <div class="right flex ">
+            <img class="2xl:w-[400px] xl:w-[400px] lg:w-[300px] md:w-[200px] sm:w-[200px] w-[150px] 2xl:h-[400px] xl:h-[400px] lg:h-[300px] md:h-[200px] sm:h-[200px] h-[150px] " src="./images/tin-lid-off.jpg" alt="">
+            </div>
+
+
+
+      </div>     
+    </div>
+ 
+
+    <!-- pics -->
+    <div class="pics 2xl:w-full xl:w-full lg:w-full md:w-full sm:full flex flex-row gap-0 ">
+<div  class="pic1 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full flex flex-col flex-nowrap " >
+
+   <img class=" mx-auto  bg-center text-center mt-[80px]" src="./images/business-yellow-m.png" alt="">
+   <div class="text 2xl:w-[316px] 2xl:h-[55px] xl:w-[316px] xl:h-[55px] lg:w-[316px] lg:h-[55px] md:w-[316px] md:h-[55px] sm:w-[250px] w-[250px] sm:h-[55px] h-[55px] block bg-[#592411] mx-auto rounded-[30px] mt-[60px] text-center leading-[55px]"><span class="font-[din] font-bold text-white text-center mx-auto 2xl:text-[18px] xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] " >BUSINESS GIFTS</span></div>
+</div>
+<div  class="pic2 flex flex-col flex-nowrap " >
+
+  <div class="text 2xl:w-[316px] 2xl:h-[55px] xl:w-[316px] xl:h-[55px] lg:w-[316px] lg:h-[55px] md:w-[316px] md:h-[55px] sm:w-[250px] w-[250px] sm:h-[55px] h-[55px]  block bg-[#592411] mx-auto rounded-[30px] mt-[480px] text-center leading-[55px]"><span class="font-[din] font-bold text-white text-center mx-auto text- " >EXPLORE MALL OF AMERICA</span></div>
+</div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer 2xl:w-full xl:w-full lg:w-full md:w-full sm: w-full h-[420px] 2xl:text-[14px] xl:text-[14px] lg:text-[14px] md:text-[12px] sm:text-[12px] text-[12px] bg-[#FFD201] flex flex-row flex-nowrap justify-center leading-3 ">
+      <div class="one 2xl:w-[300px] xl:w-[300px] lg:w-[300px] md:w-[300px] sm:w-[150px] w-[150px] 2xl:pl-20 xl:pl-20 lg:pl-20 md:pl-10 sm:pl-10 pl-10 flex flex-col flex-nowrap h-[463px] ">
+        <h4 class="mt-[50px] font-[dinbold] font-bold  text-[#592411]" >CUSTOMER SERVICE</h4>
+        <a class=" mt-[20px]  font-[din]  no-underline text-[gray]" href="#">My Account</a>
+        <a class=" mt-[10px]  font-[din]  no-underline text-[gray]" href="#">Check Order Status</a>
+        <a class=" mt-[10px]  font-[din]  no-underline text-[gray]" href="#">Shipping Information</a>
+        <a class=" mt-[10px]  font-[din]  no-underline text-[gray]" href="#">FAQs</a>
+        <a class=" mt-[10px]  font-[din]  no-underline text-[gray]" href="#">Cookies Setting</a>
+        <div class="box flex 2xl:w-[107px] 2xl:h-[33px] xl:w-[107px] xl:h-[33px] lg:w-[107px] lg:h-[33px] md:w-[107px] md:h-[33px] sm:w-[107px] sm:h-[33px] w-[70px] h-[33px] mt-[20px] bg-white hover:bg-[#68B631] no-"><a href="#" class="mx-auto leading-[33px] font-[din] text-[#68B631] hover:text-white no-underline text-center " >Cookies</a></div>
+      </div>
+
+      <div class="two flex flex-col flex-nowrap 2xl:w-[300px] xl:w-[300px] lg:w-[300px] md:w-[300px] sm:w-[120px] w-[120px] 2xl:pl-20 xl:pl-20 lg:pl-20 md:pl-10 sm:pl-10 pl-10 h-[463px] ">
+        <h4 class="w- text-start mt-[50px] font-[dinbold] font-bold text-[#592411]" >ABOUT US</h4>
+        <a class=" mt-[20px]  font-[din] no-underline text-[gray]" href="#">About M&M'S</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Contact Us</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Store Finder</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Nutrition Information</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Careers</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Supply Chain Transparency</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Note to Parent</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Modern Slavery Act</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Legal</a>
+        <a class=" mt-[10px]  font-[din] no-underline text-[gray]" href="#">Your Privacy Chioces <img src="./images/tik.png" alt=""></a>
+
+      </div>
+
+      <div class="three 2xl:w-[300px] xl:w-[300px] lg:w-[300px] md:w-[300px] sm:w-[200px] w-[200px] 2xl:pl-20 xl:pl-20 lg:pl-20 md:pl-10 sm:pl-5 pl-5 flex flex-col flex-nowrap h-[463px]">
+        <h4 class=" text-start mt-[50px] font-[dinbold] font-bold text-[#592411]" >GET SUPPORT</h4>
+        <a class=" mt-[20px]  font-[din]  no-underline text-[gray]" href="#"> <img src="./images/Icon - LiveChat.png" alt=""> Live Chat</a>
+        <a class=" mt-[10px] font-[din]   no-underline text-[gray]" href="#"> <img src="./images/Icon - Call.png" alt=""> 1-888-696-6788</a>
+
+
+      </div>
+
+      <div class="four 2xl:w-[300px] xl:w-[300px] lg:w-[300px] md:w-[300px] sm:w-[250px] w-[250px] 2xl:pl-20 xl:pl-20 lg:pl-20 md:pl-10 sm:pl-5 pl-5 sm:pr-10 flex flex-col flex-nowrap h-[463px]">
+        <h4 class="  mt-[50px] font-[dinbold] font-bold text-[#592411]" >KEEP IN TOUCH</h4>
+        <P class=" mt-[20px] mb-6 font-[din] no-underline text-[gray]" > Sign up for exclusive deals and offers including a 10% off your first purchase. </P>
+        
+        <div class="email  flex flex-row flex-nowrap justify-start">
+          
+          <input type="mail" placeholder="Email Address" class=" drop-shadow-md  2xl:w-[300px] xl:w-[300px] lg:w-[200px] md:w-[150px] sm:w-[150px] w-[150px] 2xl:h-[45px] xl:h-[45px] lg:h-[45px] md:h-[45px] sm:h-[30px] h-[30px] rounded-[30px] font-[din] pl-2 no-underline text-[gray]" href="#">
+           <!-- <div class="send w-[45px] h-[45px] flex flex-row flex-nowrap  pt-[30px] ml-2 rounded-full bg-white"><i class="fas fa-chevron-right mx-auto leading-[45px]"></i></div> -->
+           <div class="send flex flex-row flex-nowrap w-[45px] justify-center items-center h-[45px] rounded-full pl-[10px] "></div>
+           </input>
+
+        </div>
+
+
+        <h4 class=" text-start mt-[100px] font-[dinbold] font-bold text-[#592411]" >FOLLOW US</h4>
+
+        <div class="four2  h-[45px] flex flex-row flex-nowrap">
+
+        <div class="send 2xl:w-[45px] 2xl:h-[45px] xl:w-[45px] xl:h-[45px] lg:w-[45px] lg:h-[45px] md:w-[45px] mdl:h-[45px] sm:w-[35px] w-[35px] sm:h-[35px] h-[35px] flex flex-row flex-nowrap mt-[20px] rounded-full bg-white"><i class="fab fa-facebook-f text- text-[#592411] mt-3 mx-auto leading-[45px]"></i>
+        </div>
+        <div class="send 2xl:w-[45px] 2xl:h-[45px] xl:w-[45px] xl:h-[45px] lg:w-[45px] lg:h-[45px] md:w-[45px] mdl:h-[45px] sm:w-[35px] w-[35px] sm:h-[35px] h-[35px] flex flex-row flex-nowrap mt-[20px] rounded-full bg-white"><i class="fab fa-twitter text- text-[#592411] mt-3 mx-auto leading-[45px]"></i>
+        </div>
+        <div class="send 2xl:w-[45px] 2xl:h-[45px] xl:w-[45px] xl:h-[45px] lg:w-[45px] lg:h-[45px] md:w-[45px] mdl:h-[45px] sm:w-[35px] w-[35px] sm:h-[35px] h-[35px] flex flex-row flex-nowrap mt-[20px] rounded-full bg-white"><i class="fab fa-youtube text-[20px] text-[#592411] mt-3 mx-auto leading-[45px]"></i></div>
+        <div class="send 2xl:w-[45px] 2xl:h-[45px] xl:w-[45px] xl:h-[45px] lg:w-[45px] lg:h-[45px] md:w-[45px] mdl:h-[45px] sm:w-[35px] sm:h-[35px] w-[35px] h-[35px] flex flex-row flex-nowrap mt-[20px] rounded-full bg-white"><i class="fab fa-pinterest text-[20px] text-[#592411] mt-3 mx-auto leading-[45px]"></i></div>
+        <div class="send 2xl:w-[45px] 2xl:h-[45px] xl:w-[45px] xl:h-[45px] lg:w-[45px] lg:h-[45px] md:w-[45px] mdl:h-[45px] sm:w-[35px] sm:h-[35px] w-[35px] h-[35px] flex flex-row flex-nowrap mt-[20px] rounded-full bg-white"><i class="fab fa-instagram text-[20px] text-[#592411] mt-3 mx-auto leading-[45px]"></i></div>
+       </div>
+      </div>
+
+
+    </div>
+    <hr>
+    <hr>
+    <div class="downfooter 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full w-full bg-[#FFD201] flex flex-row flex-nowrap justify-between ">
+<div class="copy font-[din] text-[gray] w-[500px] h-[62px] text-[12px] mt-[20px] ml-10">© 2023 Mars Incorporated and its affiliates. <br> All Rights Reserved. mms.com</div> 
+ <div class="terms mt-[20px] flex-row text-[14px] mr-10 ">
+        <a class="no-underline  font-[din] text-[#592411] text- font-bold  " href="#">Privacy Statement</a>
+        <a class="no-underline ml-4 font-[din] text-[#592411] text- font-bold  " href="#">Terms & Conditions</a>
+        <a class="no-underline ml-4  font-[din] text-[#592411] text- font-bold  " href="#">Cookies Notice</a>
+        <a class="no-underline ml-4  font-[din] text-[#592411] text- font-bold  " href="#">Accessibility</a>
+        <a class="no-underline ml-4  font-[din] text-[#592411] text- font-bold  " href="#">Ad Choices</a>
+
+      </div>
+      </div>
+      
+
+    
+
+
+    
+
+  </div>
+
+    </div>
+
+
+    <!-- Swiper JS -->
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+     var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+
+    var swiper = new Swiper(".mySwipersecond", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    var swiper = new Swiper(".mySwiperthird", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+
+    // let mobilemenu=document.querySelector("div.mobilemenu")
+    //    let submenu=document.querySelector("div.submenu")
+    //    let flag=true
+    //    mobilemenu.addEventListener("click",function(){
+    //     if(flag===true){submenu.style.display="block" 
+    //     flag=false}
+    //     else{
+    //       submenu.style.display="none"
+    //       flag=true
+    //     }
+    //    })
+
+  </script> 
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./js/main.js" type="module"></script>
+ 
+  </body>
+</html>
